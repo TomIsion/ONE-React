@@ -1,0 +1,18 @@
+@define-mixin overflow-single {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -moz-text-overflow: ellipsis;
+  -webkit-text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+
+.overflow-2 {
+  @mixin overflow-single;
+  -webkit-line-clamp: 2;
+}
+
+.overflow-3 {
+  @mixin overflow-single;
+  -webkit-line-clamp: 3;
+}

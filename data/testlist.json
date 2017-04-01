@@ -1,0 +1,439 @@
+[{
+    "Id": "166504",
+    "Name": "苏州西山安境精品民宿",
+    "Price": "450",
+    "SeaPrice": "0",
+    "DpScore": "3.8",
+    "DpCount": 1,
+    "ImgUrl": "//pic4.40017.cn/zzy/rimage/2016/10/10/17/mz9DvD_500x270_00.jpg",
+    "TagList": [],
+    "HistoryDate": "0001-01-01T00:00:00",
+    "Bedroom": 0,
+    "Parlour": 0,
+    "Toilet": 0,
+    "MaxGuests": 0,
+    "ProjectType": 0,
+    "Address": "吴中区",
+    "Biz": "太湖风景区",
+    "Distance": "",
+    "SearchType": 2,
+    "City": "苏州",
+    "Section": "吴中区",
+    "AverSort": 0,
+    "CmtLabel": "",
+    "Tag": "|*|pos:1|*|k:|*|locCId:|*|cityId:226|*|resId:166504|*|filter:0|*|sort:|*|upf:0|*|ab:A|*|pgPath:/hotel/list|*|",
+    "HouseType": "1"
+  },
+  {
+    "Id": "125238",
+    "Name": "苏州御湖山庄",
+    "Price": "641",
+    "SeaPrice": "0",
+    "DpScore": "3.9",
+    "DpCount": 16,
+    "ImgUrl": "//pic3.40017.cn/zzy/rimage/2016/02/22/16/sslhIT_500x270_00.jpg",
+    "TagList": [{
+        "Id": 93,
+        "Name": "休闲度假"
+      },
+      {
+        "Id": 95,
+        "Name": "依山"
+      },
+      {
+        "Id": 96,
+        "Name": "傍水"
+      },
+      {
+        "Id": 111,
+        "Name": "游山"
+      },
+      {
+        "Id": 115,
+        "Name": "亲水游"
+      },
+      {
+        "Id": 118,
+        "Name": "赏红叶"
+      },
+      {
+        "Id": 120,
+        "Name": "寺庙许愿"
+      },
+      {
+        "Id": 121,
+        "Name": "森林洗肺"
+      },
+      {
+        "Id": 122,
+        "Name": "温泉养生"
+      },
+      {
+        "Id": 123,
+        "Name": "看动物"
+      },
+      {
+        "Id": 124,
+        "Name": "访古探幽"
+      },
+      {
+        "Id": 125,
+        "Name": "农家菜"
+      },
+      {
+        "Id": 157,
+        "Name": "亲子时刻"
+      },
+      {
+        "Id": 160,
+        "Name": "寺庙祈福"
+      },
+      {
+        "Id": 205,
+        "Name": "园林建筑"
+      },
+      {
+        "Id": 300,
+        "Name": "休闲度假"
+      },
+      {
+        "Id": 304,
+        "Name": "温泉养生"
+      }
+    ],
+    "HistoryDate": "0001-01-01T00:00:00",
+    "Bedroom": 0,
+    "Parlour": 0,
+    "Toilet": 0,
+    "MaxGuests": 0,
+    "ProjectType": 0,
+    "Address": "吴中区",
+    "Biz": "太湖风景区",
+    "Distance": "",
+    "SearchType": 2,
+    "City": "苏州",
+    "Section": "吴中区",
+    "AverSort": 0,
+    "CmtLabel": "环境很好",
+    "Tag": "|*|pos:2|*|k:|*|locCId:|*|cityId:226|*|resId:125238|*|filter:0|*|sort:|*|upf:0|*|ab:A|*|pgPath:/hotel/list|*|",
+    "HouseType": "1"
+  },
+  {
+    "Id": "151983",
+    "Name": "苏州甪直隐贤别院文化主题客栈(原甪直水乡青年客栈)",
+    "Price": "93",
+    "SeaPrice": "0",
+    "DpScore": "4.4",
+    "DpCount": 3,
+    "ImgUrl": "//pic4.40017.cn/zzy/rimage/2016/10/09/18/7GgA3X_500x270_00.jpg",
+    "TagList": [{
+        "Id": 112,
+        "Name": "古镇游"
+      },
+      {
+        "Id": 124,
+        "Name": "访古探幽"
+      },
+      {
+        "Id": 125,
+        "Name": "农家菜"
+      },
+      {
+        "Id": 158,
+        "Name": "寻觅客栈"
+      }
+    ],
+    "HistoryDate": "0001-01-01T00:00:00",
+    "Bedroom": 0,
+    "Parlour": 0,
+    "Toilet": 0,
+    "MaxGuests": 0,
+    "ProjectType": 0,
+    "Address": "吴中区",
+    "Biz": "甪直",
+    "Distance": "",
+    "SearchType": 2,
+    "City": "苏州",
+    "Section": "吴中区",
+    "AverSort": 0,
+    "CmtLabel": "",
+    "Tag": "|*|pos:3|*|k:|*|locCId:|*|cityId:226|*|resId:151983|*|filter:0|*|sort:|*|upf:0|*|ab:A|*|pgPath:/hotel/list|*|",
+    "HouseType": "17"
+  },
+  {
+    "Id": "165212",
+    "Name": "苏州太湖花床度假民宿",
+    "Price": "480",
+    "SeaPrice": "0",
+    "DpScore": "4.1",
+    "DpCount": 10,
+    "ImgUrl": "//pic4.40017.cn/zzy/rimage/2016/10/09/18/anpPNs_500x270_00.jpg",
+    "TagList": [{
+        "Id": 93,
+        "Name": "休闲度假"
+      },
+      {
+        "Id": 155,
+        "Name": "情侣情趣"
+      },
+      {
+        "Id": 156,
+        "Name": "可带宠物"
+      },
+      {
+        "Id": 158,
+        "Name": "寻觅客栈"
+      },
+      {
+        "Id": 300,
+        "Name": "休闲度假"
+      }
+    ],
+    "HistoryDate": "0001-01-01T00:00:00",
+    "Bedroom": 0,
+    "Parlour": 0,
+    "Toilet": 0,
+    "MaxGuests": 0,
+    "ProjectType": 0,
+    "Address": "吴中区",
+    "Biz": "太湖风景区",
+    "Distance": "",
+    "SearchType": 2,
+    "City": "苏州",
+    "Section": "吴中区",
+    "AverSort": 0,
+    "CmtLabel": "",
+    "Tag": "|*|pos:4|*|k:|*|locCId:|*|cityId:226|*|resId:165212|*|filter:0|*|sort:|*|upf:0|*|ab:A|*|pgPath:/hotel/list|*|",
+    "HouseType": "1"
+  },
+  {
+    "Id": "170159",
+    "Name": "苏州玉屏客舍会议中心",
+    "Price": "612",
+    "SeaPrice": "0",
+    "DpScore": "4.5",
+    "DpCount": 6,
+    "ImgUrl": "//pic4.40017.cn/zzy/rimage/2016/10/06/04/R8E0H5_500x270_00.jpg",
+    "TagList": [{
+        "Id": 93,
+        "Name": "休闲度假"
+      },
+      {
+        "Id": 105,
+        "Name": "招待所"
+      },
+      {
+        "Id": 157,
+        "Name": "亲子时刻"
+      },
+      {
+        "Id": 203,
+        "Name": "会议酒店"
+      },
+      {
+        "Id": 300,
+        "Name": "休闲度假"
+      }
+    ],
+    "HistoryDate": "0001-01-01T00:00:00",
+    "Bedroom": 0,
+    "Parlour": 0,
+    "Toilet": 0,
+    "MaxGuests": 0,
+    "ProjectType": 0,
+    "Address": "吴中区",
+    "Biz": "太湖风景区",
+    "Distance": "",
+    "SearchType": 2,
+    "City": "苏州",
+    "Section": "吴中区",
+    "AverSort": 0,
+    "CmtLabel": "",
+    "Tag": "|*|pos:5|*|k:|*|locCId:|*|cityId:226|*|resId:170159|*|filter:0|*|sort:|*|upf:0|*|ab:A|*|pgPath:/hotel/list|*|",
+    "HouseType": "17"
+  },
+  {
+    "Id": "102436",
+    "Name": "同里阳光驿站",
+    "Price": "298",
+    "SeaPrice": "0",
+    "DpScore": "4.6",
+    "DpCount": 10,
+    "ImgUrl": "//pic4.40017.cn/zzy/rimage/2016/10/05/02/B371Yp_500x270_00.jpg",
+    "TagList": [{
+        "Id": 112,
+        "Name": "古镇游"
+      },
+      {
+        "Id": 124,
+        "Name": "访古探幽"
+      },
+      {
+        "Id": 158,
+        "Name": "寻觅客栈"
+      }
+    ],
+    "HistoryDate": "0001-01-01T00:00:00",
+    "Bedroom": 0,
+    "Parlour": 0,
+    "Toilet": 0,
+    "MaxGuests": 0,
+    "ProjectType": 0,
+    "Address": "吴江区",
+    "Biz": "同里古镇内",
+    "Distance": "",
+    "SearchType": 2,
+    "City": "苏州",
+    "Section": "吴江区",
+    "AverSort": 0,
+    "CmtLabel": "",
+    "Tag": "|*|pos:6|*|k:|*|locCId:|*|cityId:226|*|resId:102436|*|filter:0|*|sort:|*|upf:0|*|ab:A|*|pgPath:/hotel/list|*|",
+    "HouseType": "17"
+  },
+  {
+    "Id": "166574",
+    "Name": "苏州拙政别苑酒店",
+    "Price": "281",
+    "SeaPrice": "0",
+    "DpScore": "4.6",
+    "DpCount": 110,
+    "ImgUrl": "//pic4.40017.cn/zzy/rimage/2016/10/10/17/q9z7t1_500x270_00.jpg",
+    "TagList": [{
+        "Id": 111,
+        "Name": "游山"
+      },
+      {
+        "Id": 124,
+        "Name": "访古探幽"
+      },
+      {
+        "Id": 157,
+        "Name": "亲子时刻"
+      },
+      {
+        "Id": 189,
+        "Name": "梅香芬芳"
+      },
+      {
+        "Id": 217,
+        "Name": "复式LOFT"
+      }
+    ],
+    "HistoryDate": "0001-01-01T00:00:00",
+    "Bedroom": 0,
+    "Parlour": 0,
+    "Toilet": 0,
+    "MaxGuests": 0,
+    "ProjectType": 0,
+    "Address": "姑苏区",
+    "Biz": "观前街地区（市中心）",
+    "Distance": "",
+    "SearchType": 2,
+    "City": "苏州",
+    "Section": "姑苏区",
+    "AverSort": 0,
+    "CmtLabel": "环境很好",
+    "Tag": "|*|pos:7|*|k:|*|locCId:|*|cityId:226|*|resId:166574|*|filter:0|*|sort:|*|upf:0|*|ab:A|*|pgPath:/hotel/list|*|",
+    "HouseType": "5"
+  },
+  {
+    "Id": "157865",
+    "Name": "苏州璞御中润公寓酒店",
+    "Price": "289",
+    "SeaPrice": "0",
+    "DpScore": "5.0",
+    "DpCount": 160,
+    "ImgUrl": "//pic4.40017.cn/zzy/rimage/2016/10/10/18/D42tWU_500x270_00.jpg",
+    "TagList": [{
+        "Id": 124,
+        "Name": "访古探幽"
+      },
+      {
+        "Id": 131,
+        "Name": "亲子出游"
+      },
+      {
+        "Id": 300,
+        "Name": "休闲度假"
+      },
+      {
+        "Id": 309,
+        "Name": "商务出行"
+      }
+    ],
+    "HistoryDate": "0001-01-01T00:00:00",
+    "Bedroom": 0,
+    "Parlour": 0,
+    "Toilet": 0,
+    "MaxGuests": 0,
+    "ProjectType": 0,
+    "Address": "吴中区",
+    "Biz": "汽车南站地区",
+    "Distance": "",
+    "SearchType": 2,
+    "City": "苏州",
+    "Section": "吴中区",
+    "AverSort": 0,
+    "CmtLabel": "性价比高",
+    "Tag": "|*|pos:8|*|k:|*|locCId:|*|cityId:226|*|resId:157865|*|filter:0|*|sort:|*|upf:0|*|ab:A|*|pgPath:/hotel/list|*|",
+    "HouseType": "41"
+  },
+  {
+    "Id": "166375",
+    "Name": "苏州太湖国际青年旅舍",
+    "Price": "80",
+    "SeaPrice": "0",
+    "DpScore": "4.6",
+    "DpCount": 6,
+    "ImgUrl": "//pic4.40017.cn/zzy/rimage/2016/07/21/13/dITU0g_500x270_00.jpg",
+    "TagList": [{
+      "Id": 303,
+      "Name": "青年旅舍"
+    }],
+    "HistoryDate": "0001-01-01T00:00:00",
+    "Bedroom": 0,
+    "Parlour": 0,
+    "Toilet": 0,
+    "MaxGuests": 0,
+    "ProjectType": 0,
+    "Address": "吴中区",
+    "Biz": "太湖风景区",
+    "Distance": "",
+    "SearchType": 2,
+    "City": "苏州",
+    "Section": "吴中区",
+    "AverSort": 0,
+    "CmtLabel": "",
+    "Tag": "|*|pos:9|*|k:|*|locCId:|*|cityId:226|*|resId:166375|*|filter:0|*|sort:|*|upf:0|*|ab:A|*|pgPath:/hotel/list|*|",
+    "HouseType": "9"
+  },
+  {
+    "Id": "158138",
+    "Name": "周庄近水楼台客栈",
+    "Price": "198",
+    "SeaPrice": "0",
+    "DpScore": "4.6",
+    "DpCount": 86,
+    "ImgUrl": "//pic4.40017.cn/zzy/rimage/2016/07/07/17/iMQ8Vd_500x270_00.jpg",
+    "TagList": [{
+      "Id": 158,
+      "Name": "寻觅客栈"
+    }],
+    "HistoryDate": "0001-01-01T00:00:00",
+    "Bedroom": 0,
+    "Parlour": 0,
+    "Toilet": 0,
+    "MaxGuests": 0,
+    "ProjectType": 0,
+    "Address": "昆山市",
+    "Biz": "",
+    "Distance": "",
+    "SearchType": 2,
+    "City": "苏州",
+    "Section": "昆山市",
+    "AverSort": 0,
+    "CmtLabel": "服务热情",
+    "Tag": "|*|pos:10|*|k:|*|locCId:|*|cityId:226|*|resId:158138|*|filter:0|*|sort:|*|upf:0|*|ab:A|*|pgPath:/hotel/list|*|",
+    "HouseType": "17"
+  }
+]

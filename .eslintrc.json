@@ -9,6 +9,7 @@
   "extends": "airbnb",
   "rules": {
     "semi": ["error", "never"],
+    "arrow-parens": ["error", "as-needed"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }]
   },
   "env": {
@@ -17,5 +18,6 @@
   "globals": {
     "document": true,
     "window": true
-  }
+  },
+  "parser": "babel-eslint"
 }

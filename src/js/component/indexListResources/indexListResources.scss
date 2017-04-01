@@ -1,0 +1,40 @@
+.mainContainer {
+  margin: 50px 0 70px;
+
+  button.more {
+    display: block;
+    width: 120px;
+    margin: 0 auto 40px;
+    padding: .7em 0 .7em .2em; 
+    background-color: #f6f6f6;
+    color: #333;
+    font-size: 16px;
+    text-align: center;    
+    text-shadow: 0 1px 0 #f3f3f3;
+    border: 1px solid #ddd;
+    border-radius: 1em;
+    
+
+    > * {
+      display: inline-block;
+    }
+  }
+
+  > p {
+    height: 20px;
+    line-height: 20px;
+    color: #939393;
+    text-align: center;
+
+    > * {
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    > img {
+      width: 20px;
+      height: 20px;
+      margin-right: 2px;
+    }
+  }
+}

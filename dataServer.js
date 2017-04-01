@@ -1,5 +1,5 @@
-var path = require('path'),
-    fs = require('fs')
+const path = require('path')
+const fs = require('fs')
 
 export default (req, res, next) => {
   // 获取异步请求的地址
@@ -8,7 +8,7 @@ export default (req, res, next) => {
   if (url.indexOf('.json') > -1 && url.indexOf('data/') > -1) {
     // 截取所要的路径
     // @todos 无视参数
-    let _temp = url.indexOf('?')
+    const _temp = url.indexOf('?')
     const strPath = url.slice(1, _temp === -1 ? url.length : _temp)
 
     try {
