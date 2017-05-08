@@ -1,13 +1,22 @@
 import React, { Component, PropTypes } from 'react'
 import cln from 'classnames'
 
-import Icon from '../../icons/icon'
+import Icon from '../Icons/Icon'
 
-import objCln from './search.scss'
+import objCln from './TopSearch.scss'
 
 class Search extends Component {
   state = {
     val: '',
+  }
+
+  componentWillReceiveProps(nextProps) {
+    if (nextProps.showSingle !== this.props.showSingle && nextProps.showSingle === true) {
+      // 每次重新出现搜素框的时候，重置搜索关键词
+      this.setState({
+        val: '',
+      })
+    }
   }
 
   handleInputChange(_val) {

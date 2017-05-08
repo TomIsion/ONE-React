@@ -1,7 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 import 'whatwg-fetch'
 
-import Menu from '../../component/menu/menu'
 import TopFullResource from '../../component/topFullResource/topFullResource'
 import IndexListResources from '../../component/indexListResources/indexListResources'
 
@@ -50,8 +49,7 @@ class IndexContainer extends Component {
     const { time, objFullInfo, arrAfterListInfo } = this.state
 
     return (
-      <div>
-        <Menu />
+      <div className={this.props.className}>
         <TopFullResource
           objSource={objFullInfo}
         />
@@ -64,7 +62,7 @@ class IndexContainer extends Component {
 }
 
 IndexContainer.propTypes = {
-
+  className: PropTypes.string.isRequired,
 }
 
 export default IndexContainer

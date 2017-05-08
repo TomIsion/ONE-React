@@ -108,6 +108,8 @@ module.exports = {
 
       utils: path.resolve(__dirname, 'src/utils'),
 
+      components: path.resolve(__dirname, 'src/components'),
+
       // 注意：别名只能在.js文件中使用。
     },
   },
@@ -121,7 +123,7 @@ module.exports = {
       },
       {
         test: /\.scss$/,
-        include: path.resolve(__dirname, 'src/js'),
+        include: path.resolve(__dirname, 'src/components'),
         loaders: [
           'style',
           'css?modules&importLoaders=1&localIdentName=[local]___[hash:base64:5]',

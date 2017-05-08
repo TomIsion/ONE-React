@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, PropTypes } from 'react'
 
 import TopMenu from './topMenu/topMenu'
 import Search from './search/search'
@@ -59,7 +59,7 @@ class Menu extends Component {
     const { searchShowSingle, sideShowSingle } = this.state
 
     return (
-      <div>
+      <div className={this.props.className}>
         <TopMenu
           handleShowSearch={() => this.showSearch()}
           handleShowSideMenu={() => this.showSideMenu()}
@@ -70,7 +70,8 @@ class Menu extends Component {
           getRef={ref => { this.searchDOMRef = ref }}
         />
         <HoverGlobal
-          showSingle={searchShowSingle}
+          showSingle={searchShowSingle || sideShowSingle}
+          singleFrom={searchShowSingle ? 'search' : 'side'}
         />
         <SideMenu
           showSingle={sideShowSingle}
@@ -79,6 +80,10 @@ class Menu extends Component {
       </div>
     )
   }
+}
+
+Menu.PropTypes = {
+  className: PropTypes.string.isRequired,
 }
 
 export default Menu

@@ -1,40 +1,39 @@
 import React, { Component, PropTypes } from 'react'
 
-import Icon from '../../icons/icon'
+import Icon from '../Icons/Icon'
 
-import objCln from './topMenu.scss'
+import objCln from './TopTitle.scss'
 
 class TopMenu extends Component {
-  handleSearchClick() {
-    this.props.handleShowSearch()
-  }
-
-  handleShowSideMenu() {
-    this.props.handleShowSideMenu()
-  }
-
   render() {
+    const {
+      handleShowSearch,
+      handleShowSideMenu,
+      title,
+    } = this.props
+
     return (
       <div
-        className={objCln.topMenu}
+        className={objCln.topTitle}
       >
         <Icon
           cln="category"
           clnContainer={objCln.iconMenu}
-          clickHandler={() => this.handleShowSideMenu()}
+          clickHandler={handleShowSideMenu}
         />
         <Icon
           cln="search"
           clnContainer={objCln.iconSearch}
-          clickHandler={() => this.handleSearchClick()}
+          clickHandler={handleShowSearch}
         />
-        <h1>一个</h1>
+        <h1>{title}</h1>
       </div>
     )
   }
 }
 
 TopMenu.PropTypes = {
+  title: PropTypes.string.isRequired,
   handleShowSearch: PropTypes.func.isRequired,
   handleShowSideMenu: PropTypes.func.isRequired,
 }

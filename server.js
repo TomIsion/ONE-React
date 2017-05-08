@@ -21,6 +21,7 @@ browserSync({
   ui: {
     port: 8889,
   },
+  open: 'external',
   server: {
     baseDir: 'src',
 

@@ -1,4 +1,5 @@
 import React, { Component, PropTypes } from 'react'
+import { Link } from 'react-router-dom'
 // import { today } from 'utils/moment'
 
 import Icon from '../icons/icon'
@@ -7,6 +8,10 @@ import objCln from './topFullResource.scss'
 
 class TopFullResource extends Component {
   componentDidMount() {
+  }
+
+  moreClickHandler(e) {
+    e.preventDefault()
   }
 
   render() {
@@ -21,28 +26,31 @@ class TopFullResource extends Component {
     }
 
     return (
-      <div
-        className={objCln.topResource}
-        style={objStyle}
-      >
+      <Link to={`/one/${item_id}`}>
         <div
-          className={objCln.hoverBg}
+          className={objCln.topResource}
+          style={objStyle}
         >
           <div
-            className={objCln.infoContainer}
+            className={objCln.hoverBg}
           >
-            <span>29</span><br />
-            <p>{volume} 丨 Mar.2017</p>
-            <p
-              className="overflow-3"
-            >{forward}</p>
-            <Icon
-              cln="moreunfold"
-              clnContainer={objCln.icon}
-            />
+            <div
+              className={objCln.infoContainer}
+            >
+              <span>29</span><br />
+              <p>{volume} 丨 Mar.2017</p>
+              <p
+                className="overflow-3"
+              >{forward}</p>
+              <Icon
+                cln="moreunfold"
+                clnContainer={objCln.icon}
+                clickHandler={e => this.moreClickHandler(e)}
+              />
+            </div>
           </div>
         </div>
-      </div>
+      </Link>
     )
   }
 }

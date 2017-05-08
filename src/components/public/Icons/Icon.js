@@ -1,6 +1,6 @@
 import React from 'react'
 
-import objCln from './icon.scss'
+import objCln from './Icon.scss'
 
 const Icon = (props) => {
   const { cln, clnContainer, clickHandler } = props

@@ -1,13 +1,14 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 
-import IndexContainer from './js/container/IndexContainer/indexContainer'
+import Root from './routes/routes'
 
 export default class App extends Component {
   render() {
     return (
-      <div>
-        <IndexContainer />
-      </div>
+      <Router>
+        <Root />
+      </Router>
     )
   }
 }

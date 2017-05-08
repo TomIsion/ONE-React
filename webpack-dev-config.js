@@ -63,6 +63,8 @@ export default {
 
       utils: path.resolve(__dirname, 'src/utils'),
 
+      components: path.resolve(__dirname, 'src/components'),
+
       // 注意：别名只能在.js文件中使用。
     },
   },
@@ -75,7 +77,7 @@ export default {
       },
       {
         test: /\.scss$/,
-        include: path.resolve(__dirname, 'src/js'),
+        include: path.resolve(__dirname, 'src/components'),
         loaders: [
           'style',
           'css?modules&sourceMap&importLoaders=1&localIdentName=[local]___[hash:base64:5]',
